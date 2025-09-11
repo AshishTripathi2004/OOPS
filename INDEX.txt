@@ -1,0 +1,139 @@
+1. Memory Management & RAII
+Smart Pointers (unique_ptr, shared_ptr, weak_ptr, custom deleters)
+
+RAII (Resource Acquisition Is Initialization)
+
+Custom allocators
+
+Placement new & operator new/delete overloading
+
+Memory pools & object pools
+
+Cache-friendly data structures
+
+2. Templates & Generic Programming
+Function templates
+
+Class templates
+
+Variadic templates
+
+Template specialization & partial specialization
+
+Template metaprogramming (TMP)
+
+Concepts (C++20)
+
+SFINAE (Substitution Failure Is Not An Error)
+
+CRTP (Curiously Recurring Template Pattern)
+
+Type traits (std::is_same, std::enable_if, etc.)
+
+3. Object-Oriented & Polymorphism
+Virtual functions & vtable mechanics
+
+Multiple inheritance & diamond problem
+
+Virtual inheritance
+
+Abstract classes & pure virtual functions
+
+Covariant return types
+
+Run-time type information (RTTI) — typeid, dynamic_cast
+
+PImpl idiom (Pointer to Implementation)
+
+4. Modern C++ Features
+Move semantics (&&, std::move, std::forward)
+
+Rvalue references
+
+Perfect forwarding
+
+Lambda expressions (captures, generic lambdas)
+
+Range-based for loops
+
+Initializer lists
+
+Structured bindings (C++17)
+
+Constexpr (compile-time computation)
+
+Inline variables (C++17)
+
+Modules (C++20)
+
+5. Concurrency & Parallelism
+std::thread & thread management
+
+Thread synchronization — mutexes, condition variables, locks
+
+Atomic operations — std::atomic
+
+Thread-safe data structures
+
+Futures, promises, async tasks
+
+Parallel STL algorithms (C++17)
+
+Coroutines (C++20)
+
+6. Advanced STL Usage
+Custom comparators & hash functions
+
+Allocators with STL containers
+
+Iterator categories & custom iterators
+
+Ranges library (C++20)
+
+Views & lazy evaluation
+
+7. Low-Level & System Programming
+Bitwise operations & bitfields
+
+Endianess handling
+
+Memory-mapped files
+
+Inline assembly
+
+Interfacing with C (extern "C")
+
+ABI (Application Binary Interface) concerns
+
+8. Design Patterns in C++
+Singleton, Factory, Builder
+
+Observer, Visitor, Strategy
+
+Prototype, Adapter, Bridge
+
+Decorator, Command, State
+
+RAII & Resource management patterns
+
+9. Compilation & Linking
+Preprocessor directives & macros
+
+Linkage (internal/external)
+
+Dynamic vs static linking
+
+Symbol visibility & name mangling
+
+One Definition Rule (ODR)
+
+10. Debugging & Profiling
+GDB/LLDB advanced usage
+
+Valgrind, AddressSanitizer
+
+Static analysis tools
+
+Performance profiling (gprof, perf)
+
+Benchmarking frameworks
